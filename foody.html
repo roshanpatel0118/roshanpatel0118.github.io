@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foody</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		#sign {
+			float:right;
+		}
+	</style>
+</head>
+<body>
+	<header>
+
+		<center><img src="https://i.postimg.cc/Dy8kmkxS/logo-removebg.png" height="150px" alt="Foody"></center>
+
+		<hr>
+		
+		<center>
+		<div id="sign">
+			<h2>SignUp</h2>
+			<form>
+				<label for="fname">First name:</label>
+				<br>
+				<input type="text" id="fname" name="fname">
+				<br>
+				<label for="lname">Last name:</label>
+				<br>
+				<input type="text" id="lname" name="lname">
+				<br>
+				<label for="email">Email:</label>
+				<br>
+				<input type="email" id="email" name="email">
+				<br>
+				<label for="pass">Password:</label>
+				<br>
+				<input type="password" id="pass" name="pass">
+				<br>
+				<label for="repass">Confirm Password:</label>
+				<br>
+				<input type="password" id="conpass" name="conpass">
+				<br>
+				<br>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</form>
+			<hr>
+			<hr>
+			<h1>SignIn</h1>
+			<form>
+				<label for="email">Email:</label>
+				<br>
+				<input type="email" id="email" name="email">
+				<br>
+				<label for="pass">Password:</label>
+				<br>
+				<input type="password" id="pass" name="pass">
+				<br>
+				<a href="forgot password">Forgot Password?</a>
+				<br>
+				<br>
+				<button type="submit">SignIn</button>
+				<button type="reset">Reset</button>
+			</form>
+		</div>
+		</center>
+
+	<main>
+
+		<hr>
+
+		<section class="banner">
+			<center>
+			<h2>Order food online and enjoy delicious meals at your doorstep</h2>
+			</center>
+		</section>
+
+		<section class="about">
+			<center>
+			<h2>About Us</h2>
+			<p>We are a family-owned restaurant that has been serving delicious food for over 20 years. Our mission is to provide our customers with the best possible dining experience, whether they dine in or order online.</p>
+			</center>
+		</section>
+
+		<hr>
+		<hr>
+
+		<section class="menu">
+			<h2>Our Menu</h2>
+			<div class="menu-items">
+				<div class="menu-item">
+					<img src="https://i.postimg.cc/Zq51kPkG/PREMIUM.webp" alt="Premium">
+					<h3>Premium Thali</h3>
+					<p>Butter Paneer + Dal Makhni + Mix Veg + Veg Pulao + Butter Tawa Roti + Boondi Raita + Sweet</p>
+					<span class="price">₹235</span>
+				</div>
+				<br>
+				<br>
+				<div class="menu-item">
+					<img src="https://i.postimg.cc/y8YfWVf9/SPECIAL.jpg" alt="Special">
+					<h3>Special Thali</h3>
+					<p>Paneer Masala + Dal Fry + Seasonal Veg + Jeera Rice + 4 Tawa Roti + Sweet</p>
+					<span class="price">₹220</span>
+				</div>
+				<br>
+				<br>
+				<div class="menu-item">
+					<img src="https://i.postimg.cc/fWc5K3pm/MINI.jpg" alt="Mini">
+					<h3>Mini Meal</h3>
+					<p>Butter Paneer Masala + Dal Fry + 3 Tawa Butter Roti + Jeera Rice</p>
+					<span class="price">₹180</span>
+				</div>
+			</div>
+		</section>
+
+		<hr>
+		<hr>
+
+		<section>
+			<center>
+				<h2>Order Details</h2>
+				<form>
+					<label for="name">Name:</label>
+					<br>
+					<input type="text" id="name" name="name">
+					<br>
+					<label for="add">Address:</label>
+					<br>
+					<input type="text" id="add" name="add">
+					<br>
+					<label for="mob">Mobile Number:</label>
+					<br>
+					<input type="number" id="mob" name="mod">
+					<br>
+					<table>
+						<tr>
+							<th>Items</th>
+							<th>Product Id</th>
+							<th>Quantity</th>
+							<th>Remark</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><input type="text" id="item1" name="item1"></td>
+							<td><input type="number"></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><input type="text" id="item2" name="item2"></td>
+							<td><input type="number"></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><input type="text" id="item3" name="item3"></td>
+							<td><input type="number"></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td><input type="text" id="item4" name="item4"></td>
+							<td><input type="number"></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td><input type="text" id="item5" name="item5"></td>
+							<td><input type="number"></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+				</form>
+				<br>
+				<button type="submit">Order Now</button>
+				</center>
+		</section>
+		
+		<hr>
+		<hr>
+
+		<section class="contact">
+			<center>
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name</label>
+				<br>
+				<input type="text" id="name" name="name">
+				<br>
+				<label for="email">Email</label>
+				<br>
+				<input type="email" id="email" name="email">
+				<br>
+				<label for="message">Message</label>
+				<br>
+				<textarea id="message" name="message"></textarea>
+				<br>
+				<br>
+				<button type="submit">Send</button>
+			</form>
+		</center>
+		</section>
+
+	</main>
+
+	<footer>
+
+		<ul>
+			<li><a href="mailto:roshanpatel0118@gmail.com">Email</a> </li>
+			<li><a href="https://www.instagram.com/roshanpatel0118/">Instagram</a></li>
+			<li><a href="https://www.facebook.com/roshanpatel0118/">Facebook</a></li>
+			<li><a href="tel:+916266228519">Phone</a></li>
+			<li><a href="https://www.linkedin.com/in/roshanpatel0118/">Linkedin</a></li>
+		</ul>
+		
+		<center><p>Copyright © Foody</p></center>
+
+	</footer>
+</body>
+</html>
